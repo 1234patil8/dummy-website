@@ -1,0 +1,1277 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navdiv {
+  width: 425px;
+  height: 300px;
+  background-color: #87509c;
+}
+nav li {
+  display: none;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+}
+nav img {
+  margin: 20px;
+}
+.qoute {
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 9px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.qoute a {
+  background-color: #eb7b39;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  /* top right botton left */
+}
+.serviesweprovide {
+  background-color: #17c2a4;
+  color: white;
+  width: 425px;
+}
+.serviesweprovide h1 {
+  font-size: 26px;
+  margin-left: 60px;
+  padding-top: 20px;
+}
+.serviesweprovide hr {
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 1px;
+  color: black;
+}
+.serviesweprovide p {
+  margin-top: 10px;
+  padding: 10px;
+}
+.imagesdiv {
+  width: 425px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  text-align: center;
+}
+.images {
+  margin-top: 20px;
+  width: 400px;
+}
+.images img {
+  margin-bottom: 20px;
+}
+/* SECTION TEAM START */
+
+.team {
+  width: 425px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(241, 244, 244);
+}
+.team h1 {
+  font-size: 26px;
+  margin-left: 10px;
+}
+.team p {
+  margin-top: 30px;
+  font-size: 16px;
+  margin-left: 40px;
+}
+.team hr {
+  margin-left: 150px;
+  margin-top: 10px;
+  margin-right: 150px;
+}
+.teammember img {
+  width: 250px;
+  margin-left: 100px;
+  margin-top: 20px;
+  clip-path: circle();
+}
+.teammember h1 {
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.teammember h2 {
+  margin-left: 150px;
+  margin-top: 10px;
+  color: #17c2a4;
+  font-size: 20px;
+}
+.teammember p {
+  font-size: 19px;
+}
+.social {
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.social i {
+  font-size: 25px;
+  background-color: rgb(230, 229, 229);
+  margin-left: 10px;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* SECTION TEAM END */
+.percentage {
+  font-size: 55px;
+  margin-top: -120px;
+  margin-left: 30px;
+}
+.percentagecircle p {
+  margin-top: 70px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.skillcircle {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.skills h3 {
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 70px;
+}
+.skills hr {
+  margin-right: 150px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+.skills p {
+  padding: 20px;
+}
+.ourportfolio {
+  background-color: #ffdd99;
+  padding-bottom: 30px;
+}
+.ourportfolio hr {
+  margin-right: 150px;
+  margin-left: 160px;
+  margin-top: 5px;
+}
+
+.ourportfolio h1 {
+  margin-left: 100px;
+  padding-top: 10px;
+  font-size: 29px;
+}
+.ourportfolio p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.ourportfolio a {
+  background-color: #17c2a4;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+}
+#buttons {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.laptopimgdiv {
+  width: 425px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.laptopimg img {
+  width: 340px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.laptopimg p {
+  text-align: center;
+  margin-top: 10px;
+}
+.loadmore {
+  margin-top: 30px;
+  text-align: center;
+}
+.loadmore a {
+  background-color: #17c2a4;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.aboutus {
+  color: white;
+  background-color: #d74680;
+}
+.aboutus h1 {
+  font-size: 26px;
+  padding-top: 10px;
+}
+.aboutus hr {
+  margin-left: 150px;
+  margin-top: 5px;
+  margin-right: 150px;
+  border: 1px solid rgb(63, 63, 63);
+}
+.aboutus h3 {
+  padding-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.client {
+  width: 425px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.clientimg {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.clientimg p {
+  padding: 20px;
+}
+.clientimg h1 {
+  text-align: center;
+  margin-top: -20px;
+}
+.clientimg h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(249, 249, 86);
+}
+.clientimg img {
+  margin-left: 70px;
+  width: 290px;
+  clip-path: circle();
+}
+.getintouch {
+  background-color: rgb(106, 87, 231);
+  color: white;
+}
+.getintouchname {
+  text-align: center;
+  padding-top: 20px;
+}
+.getintouchname hr {
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+.getintouchname h2 {
+  font-size: 27px;
+}
+.getintouchname h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+.getintouchform input {
+  padding: 5px;
+  margin-top: 10px;
+  padding-right: 100px;
+  border-radius: 10px;
+  background-color: #273a71;
+  margin-left: 50px;
+}
+.getintouchform textarea {
+  border-radius: 10px;
+  background-color: #273a71;
+  padding: 2px;
+}
+.getintouchform .textarea {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.getintouchbutton {
+  background-color: #273a71;
+  padding: 5px;
+  width: 250px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  color: white;
+}
+.footer1 {
+  background-color: #314993;
+  height: 54px;
+}
+footer a {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* ******************@media only screen and (min-width: 768px)************************ */
+
+@media only screen and (min-width: 768px) {
+  .navdiv {
+    width: 768px;
+    height: 300px;
+  }
+  nav ul {
+    margin-left: 300px;
+    margin-top: -50px;
+  }
+  nav li {
+    display: inline;
+  }
+  nav img {
+    margin: 20px;
+  }
+  .qoute {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .qoute a {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+  }
+  .serviesweprovide {
+    width: 768px;
+  }
+  .serviesweprovide h1 {
+    font-size: 26px;
+    margin-left: 260px;
+    padding-top: 20px;
+  }
+  .serviesweprovide hr {
+    margin-left: 350px;
+    margin-right: 300px;
+    height: 1px;
+  }
+  .serviesweprovide p {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  .imagesdiv {
+    width: 786px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .images {
+    margin-top: 20px;
+    width: 300px;
+    padding: 20px;
+  }
+  .images img {
+    margin-bottom: 20px;
+  }
+  /* SECTION TEAM START */
+
+  .team {
+    width: 768px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(241, 244, 244);
+  }
+  .teamname {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teammember {
+    width: 350px;
+  }
+  .team h1 {
+    font-size: 26px;
+    margin-left: 190px;
+  }
+  .team p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .team hr {
+    margin-left: 320px;
+    margin-top: 10px;
+    margin-right: 250px;
+  }
+  .teammember img {
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 20px;
+    clip-path: circle();
+  }
+  .teammember h1 {
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .teammember h2 {
+    margin-left: 150px;
+    margin-top: 10px;
+    color: #17c2a4;
+    font-size: 20px;
+  }
+  .teammember p {
+    font-size: 19px;
+  }
+  .social {
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+  .social i {
+    font-size: 25px;
+    background-color: rgb(230, 229, 229);
+    margin-left: 10px;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  /* SECTION TEAM END */
+  .percentage {
+    font-size: 55px;
+    margin-top: -120px;
+    margin-left: 30px;
+  }
+  .percentagecircle {
+    padding: 30px;
+    margin-left: 30px;
+  }
+  .percentagecircle p {
+    margin-top: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .skillcircle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .skills h3 {
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 270px;
+  }
+  .skills hr {
+    margin-right: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+  }
+  .skills p {
+    padding: 20px;
+    padding-left: 40px;
+  }
+  .ourportfolio {
+    padding-bottom: 30px;
+  }
+  .ourportfolio hr {
+    margin-right: 300px;
+    margin-left: 320px;
+    margin-top: 5px;
+  }
+
+  .ourportfolio h1 {
+    margin-left: 260px;
+    padding-top: 10px;
+  }
+  .ourportfolio p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .ourportfolio a {
+    background-color: #17c2a4;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin: 25px;
+    text-decoration: none;
+  }
+  #buttons {
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+  .laptopimgdiv {
+    width: 768px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+  }
+  .laptopimg img {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .laptopimg p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .loadmore {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .loadmore a {
+    background-color: #17c2a4;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .aboutus {
+    color: white;
+  }
+  .aboutus h1 {
+    padding-top: 40px;
+    margin-left: 190px;
+  }
+  .aboutus hr {
+    margin-left: 300px;
+    margin-top: 15px;
+    margin-right: 300px;
+  }
+  .aboutus h3 {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .client {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .clientimg {
+    width: 350px;
+    margin-top: 30px;
+  }
+  .clientimg p {
+    padding: 20px;
+  }
+  .clientimg h1 {
+    margin-top: -40px;
+    margin-left: 0px;
+  }
+  .clientimg h2 {
+    margin-top: 10px;
+  }
+  .clientimg img {
+    margin-left: 70px;
+    width: 250px;
+    clip-path: circle();
+  }
+  .getintouch {
+  }
+  .getintouchname {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .getintouchname hr {
+    margin-left: 350px;
+    margin-right: 340px;
+    margin-top: 5px;
+  }
+  .getintouchname h2 {
+    font-size: 26px;
+  }
+  .getintouchname h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .getintouchform input {
+    padding: 5px;
+    margin-top: 10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  .getintouchform textarea {
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 2px;
+    padding-right: 265px;
+  }
+  .getintouchform .textarea {
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+  .getintouchbutton {
+    padding: 5px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .footer1 {
+    padding: 10px;
+    padding-left: 70px;
+  }
+  footer a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+}
+
+/******************************** @media only screen and (min-width: 1024px) *********************************/
+@media only screen and (min-width: 1024px) {
+  .navdiv {
+    width: 1024px;
+    height: 300px;
+  }
+  .navul {
+    margin-left: 550px;
+    margin-top: -50px;
+  }
+  nav li {
+    display: inline;
+  }
+  nav img {
+    margin: 20px;
+  }
+  .qoute {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .qoute a {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+  }
+  .serviesweprovide {
+    width: 1024px;
+  }
+  .serviesweprovide h1 {
+    font-size: 26px;
+    margin-left: 380px;
+    padding-top: 20px;
+  }
+  .serviesweprovide hr {
+    margin-top: 10px;
+    margin-left: 440px;
+    margin-right: 430px;
+    height: 1px;
+  }
+  .serviesweprovide p {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .serviesweprovidep {
+    text-align: center;
+  }
+  .imagesdiv {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .images {
+    margin-top: 20px;
+    width: 190px;
+    padding: 30px;
+  }
+  .images img {
+    margin-bottom: 20px;
+  }
+  /* SECTION TEAM START */
+
+  .team {
+    width: 1024px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(241, 244, 244);
+  }
+  .teamname {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teammember {
+    width: 300px;
+  }
+  .team h1 {
+    font-size: 26px;
+    margin-left: 290px;
+  }
+  .team p {
+    margin-bottom: 20px;
+  }
+  #teamp {
+    margin-left: -130px;
+  }
+  .team hr {
+    margin-left: 420px;
+    margin-top: 10px;
+    margin-right: 450px;
+  }
+  .teammember img {
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+    clip-path: circle();
+  }
+  .teammember h1 {
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 26px;
+  }
+  .teammember h2 {
+    margin-left: 140px;
+    margin-top: 10px;
+    color: #17c2a4;
+    font-size: 18px;
+  }
+  .teammember p {
+    font-size: 17px;
+  }
+  .social {
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  .social i {
+    font-size: 20px;
+    background-color: rgb(230, 229, 229);
+    margin-left: 10px;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  /* SECTION TEAM END */
+  .percentage {
+    font-size: 55px;
+    margin-top: -120px;
+    margin-left: 30px;
+  }
+  .percentagecircle {
+    padding: 40px;
+    margin-left: -70px;
+  }
+  .percentagecircle p {
+    padding: 40px;
+    margin-top: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .skillcircle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .skills h3 {
+    margin-left: -60px;
+    text-align: center;
+  }
+  .skills hr {
+    margin-right: 480px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+  }
+  .skills p {
+    padding: 20px;
+    padding-left: 40px;
+  }
+  .ourportfolio {
+    padding-bottom: 30px;
+  }
+  .ourportfolio hr {
+    margin-right: 480px;
+    margin-left: 430px;
+    margin-top: 5px;
+  }
+
+  .ourportfolio h1 {
+    margin-left: 350px;
+    padding-top: 10px;
+  }
+  .ourportfolio p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .ourportfolio a {
+    background-color: #17c2a4;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin: 25px;
+    text-decoration: none;
+  }
+  #buttons {
+    margin-left: -40px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .laptopimgdiv {
+    width: 1024px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: -20px;
+    flex-wrap: wrap;
+  }
+  .laptopimg img {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .laptopimg p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .loadmore {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .loadmore a {
+    background-color: #17c2a4;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  .aboutus {
+    color: white;
+  }
+  .aboutus h1 {
+    padding-top: 40px;
+    margin-left: 300px;
+  }
+  .aboutus hr {
+    margin-left: 420px;
+    margin-top: 15px;
+    margin-right: 450px;
+  }
+  .aboutus h3 {
+    margin-left: -40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .client {
+    width: 1024px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .clientimg {
+    width: 300px;
+    margin-top: 30px;
+  }
+  .clientimg p {
+    margin-left: 0px;
+    padding: 20px;
+  }
+  .clientimg h1 {
+    margin-top: -40px;
+    margin-left: 0px;
+  }
+  .clientimg h2 {
+    margin-top: 10px;
+  }
+  .clientimg img {
+    margin-left: 70px;
+    width: 220px;
+    clip-path: circle();
+  }
+  .getintouch {
+  }
+  .getintouchname {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .getintouchname hr {
+    margin-left: 480px;
+    margin-right: 440px;
+    margin-top: 5px;
+  }
+  .getintouchname h2 {
+    font-size: 26px;
+  }
+  .getintouchname h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .getintouchform input {
+    padding: 5px;
+    margin-top: 10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    margin-left: 70px;
+  }
+  .getintouchform textarea {
+    margin-left: 80px;
+    border-radius: 10px;
+    padding: 2px;
+    padding-right: 265px;
+  }
+  .getintouchform .textarea {
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+  .getintouchbutton {
+    padding: 5px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 290px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .footer1 {
+    padding: 10px;
+    padding-left: 130px;
+  }
+  footer a {
+    font-size: 23px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+}
+/* ********************************* @media only screen and (min-width: 1440px) ******************************************* */
+
+@media only screen and (min-width: 1440px) {
+  .navdiv {
+    width: 1440px;
+    height: 300px;
+  }
+  .navul {
+    margin-left: 900px;
+    margin-top: -50px;
+  }
+  nav li {
+    display: inline;
+  }
+  nav img {
+    margin: 20px;
+  }
+  .qoute {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .qoute a {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+  }
+  .serviesweprovide {
+    width: 1440px;
+  }
+  .serviesweprovide h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-right: 480px;
+    padding-top: 20px;
+  }
+  .serviesweprovide hr {
+    margin-top: 10px;
+    margin-left: 600px;
+    margin-right: 730px;
+    height: 1px;
+  }
+  .serviesweprovide p {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .serviesweprovidep {
+    text-align: center;
+  }
+  .imagesdiv {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .images {
+    margin-top: 20px;
+    width: 280px;
+    padding: 30px;
+  }
+  .images img {
+    margin-bottom: 20px;
+  }
+  /* SECTION TEAM START */
+
+  .team {
+    width: 1440px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(241, 244, 244);
+  }
+  .teamname {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teammember {
+    width: 330px;
+  }
+  .team h1 {
+    font-size: 26px;
+    margin-left: 490px;
+  }
+  .team p {
+    margin-bottom: 20px;
+  }
+  #teamp {
+    margin-left: -130px;
+  }
+  .team hr {
+    margin-left: 620px;
+    margin-top: 10px;
+    margin-right: 650px;
+  }
+  .teammember img {
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+    clip-path: circle();
+  }
+  .teammember h1 {
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 26px;
+  }
+  .teammember h2 {
+    margin-left: 140px;
+    margin-top: 10px;
+    color: #17c2a4;
+    font-size: 18px;
+  }
+  .teammember p {
+    font-size: 17px;
+  }
+  .social {
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  .social i {
+    font-size: 20px;
+    background-color: rgb(230, 229, 229);
+    margin-left: 10px;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  /* SECTION TEAM END */
+  .percentage {
+    font-size: 55px;
+    margin-top: -120px;
+    margin-left: 30px;
+  }
+  .percentagecircle {
+    padding: 80px;
+    margin-left: -70px;
+  }
+  .percentagecircle p {
+    padding: 40px;
+    margin-top: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .skillcircle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 170px;
+    margin-top: 40px;
+  }
+  .skills h3 {
+    margin-left: -60px;
+    text-align: center;
+  }
+  .skills hr {
+    margin-right: 680px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 620px;
+  }
+  .skills p {
+    padding: 20px;
+    text-align: center;
+    padding-left: 40px;
+  }
+  .ourportfolio {
+    padding-bottom: 30px;
+  }
+  .ourportfolio hr {
+    margin-right: 680px;
+    margin-left: 600px;
+    margin-top: 5px;
+  }
+
+  .ourportfolio h1 {
+    margin-left: 550px;
+    padding-top: 10px;
+  }
+  .ourportfolio p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .ourportfolio a {
+    background-color: #17c2a4;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin: 25px;
+    text-decoration: none;
+  }
+  #buttons {
+    margin-left: -50px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .laptopimgdiv {
+    width: 1440px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+  .laptopimg img {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .laptopimg p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .loadmore {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .loadmore a {
+    background-color: #17c2a4;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .aboutus {
+    color: white;
+    padding-bottom: 100px;
+  }
+  .aboutus h1 {
+    padding-top: 40px;
+    margin-left: 500px;
+  }
+  .aboutus hr {
+    margin-left: 620px;
+    margin-top: 15px;
+    margin-right: 650px;
+  }
+  .aboutus h3 {
+    margin-left: -40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 29px;
+    text-align: center;
+  }
+  .client {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .clientimg {
+    width: 350px;
+    margin-top: 30px;
+  }
+  .clientimg p {
+    margin-left: 0px;
+    padding: 20px;
+  }
+  .clientimg h1 {
+    margin-top: -40px;
+    margin-left: 0px;
+  }
+  .clientimg h2 {
+    margin-top: 10px;
+  }
+  .clientimg img {
+    margin-left: 70px;
+    width: 220px;
+    clip-path: circle();
+  }
+  .getintouch {
+  }
+  .getintouchname {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .getintouchname hr {
+    margin-left: 700px;
+    margin-right: 630px;
+    margin-top: 5px;
+  }
+  .getintouchname h2 {
+    font-size: 26px;
+    margin-left: 80px;
+  }
+
+  .getintouchname h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .getintouchform {
+    margin-left: 270px;
+  }
+  .getintouchform input {
+    padding: 5px;
+    margin-top: 10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    margin-left: 70px;
+  }
+  .getintouchform textarea {
+    margin-left: 80px;
+    border-radius: 10px;
+    padding: 2px;
+    padding-right: 265px;
+  }
+  .getintouchform .textarea {
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+  .getintouchbutton {
+    padding: 5px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 290px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .footer1 {
+    padding-left: 190px;
+  }
+  footer a {
+    padding: 30px;
+  }
+}
